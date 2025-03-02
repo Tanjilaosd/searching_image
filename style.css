@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#root{
+   width: 200px;
+   background-color: gray;
+   padding: 5px;
+   border-radius: 10px;
+}
+.product{
+   
+}
+img{
+    width: 180px;
+}
+h3{
+    color: red;
+    padding: 10px 0px;
+}
+p{
+    font-size: 12px;
+    padding-bottom: 10px;
+
+}
+a button{
+    width: 100%;
+    padding: 8px 0;
+    border-radius: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    background-color: gray;
+    padding: 10px;
+    width: 350px;
+
+}
+input{
+    margin-top: 10px;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+textarea{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+
+}
+button{
+    margin-top: 10px;
+    padding: 9px;
+    font-size: 20px;
+}
